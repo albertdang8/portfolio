@@ -13,7 +13,7 @@ const NavBar = () => {
     <>
       <nav className="z-50 flex justify-between items-center h-24 text-white max-w-[1240px] mx-auto px-4">
         <h1 className="w-full text-md font-bold text-[#00DF9A]">
-          albert.dang(dev)
+          dang.albert(dev)
         </h1>
         <ul className="md:flex gap-4 hidden">
           <li>
@@ -45,7 +45,13 @@ const NavBar = () => {
         <div onClick={handleNav} className="block md:hidden">
           {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
-        <div className={!nav ? 'z-50 fixed left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#657c69] ease-in-out duration-500' : 'fixed left-[-100%]'}>
+        <div
+          className={
+            !nav
+              ? "z-50 fixed left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#657c69] ease-in-out duration-500"
+              : "fixed left-[-100%]"
+          }
+        >
           <h1 className="w-full text-md font-bold text-[#00DF9A] m-4">
             albert.dang(dev)
           </h1>
