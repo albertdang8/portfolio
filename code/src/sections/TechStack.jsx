@@ -9,16 +9,18 @@ import git from "../assets/icons/git.svg";
 import gitbash from "../assets/icons/bash_logo.png";
 import ts from "../assets/icons/typescript.svg";
 import html from "../assets/icons/html.svg";
+import figma from "../assets/icons/figma.svg"
 
 const TechStack = () => {
   return (
     <>
-      <div>
+      <div className="flex flex-wrap">
         <a href="#" target="_blank">
           <img src={git} className="tech__logo git" alt="Git logo" />
         </a>
         <a href="#" target="_blank">
           <img src={gitbash} className="tech__logo gitbash" alt="Bash logo" />
+          {/* h-[80px] w-[100px] */}
         </a>
         <a href="#" target="_blank">
           <img src={html} className="tech__logo html" alt="HTML logo" />
@@ -46,6 +48,9 @@ const TechStack = () => {
         </a>
         <a href="#" target="_blank">
           <img src={ts} className="tech__logo ts" alt="TypeScript logo" />
+        </a>
+        <a href="#" target="_blank">
+          <img src={figma} className="tech__logo figma" alt="Figma logo" />
         </a>
       </div>
     </>
