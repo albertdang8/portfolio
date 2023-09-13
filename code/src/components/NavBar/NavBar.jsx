@@ -17,27 +17,27 @@ const NavBar = () => {
         </h1>
         <ul className="md:flex gap-4 hidden">
           <li>
-            <Link className="p-4" to="/">
+            <Link className="p-4 nav__link" to="/">
               Home
             </Link>
           </li>
           <li>
-            <Link className="p-4" to="/about">
+            <Link className="p-4 nav__link" to="/about">
               About
             </Link>
           </li>
           <li>
-            <Link className="p-4" to="/">
+            <Link className="p-4 nav__link" to="/">
               Projects
             </Link>
           </li>
           <li>
-            <Link className="p-4" to="/">
+            <Link className="p-4 nav__link" to="/">
               Tech_Stack
             </Link>
           </li>
           <li>
-            <Link className="p-4" to="/">
+            <Link className="p-4 nav__link" to="/">
               Secret
             </Link>
           </li>

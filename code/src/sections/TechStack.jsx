@@ -14,44 +14,19 @@ import figma from "../assets/icons/figma.svg"
 const TechStack = () => {
   return (
     <>
-      <div className="flex flex-wrap">
-        <a href="#" target="_blank">
+      <div className="flex flex-wrap justify-center items-center">
           <img src={git} className="tech__logo git" alt="Git logo" />
-        </a>
-        <a href="#" target="_blank">
           <img src={gitbash} className="tech__logo gitbash" alt="Bash logo" />
-          {/* h-[80px] w-[100px] */}
-        </a>
-        <a href="#" target="_blank">
           <img src={html} className="tech__logo html" alt="HTML logo" />
-        </a>
-        <a href="#" target="_blank">
           <img src={css} className="tech__logo css" alt="CSS logo" />
-        </a>
-        <a href="#" target="_blank">
           <img src={tailwind} className="tech__logo tailwind" alt="TailWind logo" />
-        </a>
-        <a href="#" target="_blank">
           <img src={js} className="tech__logo js" alt="JavaScript logo" />
-        </a>
-        <a href="#" target="_blank">
           <img src={reactLogo} className="tech__logo react" alt="React logo" />
-        </a>
-        <a href="#" target="_blank">
           <img src={viteLogo} className="tech__logo" alt="Vite logo" />
-        </a>
-        <a href="#" target="_blank">
           <img src={firebase} className="tech__logo firebase" alt="Firebase logo" />
-        </a>
-        <a href="#" target="_blank">
           <img src={linkedIn} className="tech__logo linkedIn" alt="LinkedIn logo" />
-        </a>
-        <a href="#" target="_blank">
           <img src={ts} className="tech__logo ts" alt="TypeScript logo" />
-        </a>
-        <a href="#" target="_blank">
           <img src={figma} className="tech__logo figma" alt="Figma logo" />
-        </a>
       </div>
     </>
   );

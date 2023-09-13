@@ -5,7 +5,7 @@ import { FaChevronDown } from "react-icons/fa6";
 const Hero = () => {
   return (
     <section className="text-white relative">
-      <div className="max-w-[800px]  w-full h-screen mx-auto text-center flex flex-col justify-center">
+      <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-[#00DF9A] font-bold p-2">Hire me pretty please</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 capitalize">
           Develope my career
@@ -36,10 +36,12 @@ const Hero = () => {
         <button className="border-solid border-2 border-[#00DF9A] text-[#00DF9A] hover:bg-[#00DF9A] hover:text-white transition-all ease-in duration-150 w-[200px] rounded-md my-6 mx-auto py-3 font-semibold">
           Hire Me
         </button>
-        <div className="absolute bottom-[50px] left-[50%] cursor-pointer animate-bounce">
-          <ScrollLink class="" to="summary" smooth={true} duration={500}>
+
+        <div className="absolute bottom-[50px] left-[49.259%] transform -translate-x-1/2 cursor-pointer animate-bounce">
+          <ScrollLink to="summary" smooth={true} duration={500}>
             <FaChevronDown size={24} />
           </ScrollLink>
+        {/* why won't this shit center? */}
         </div>
       </div>
     </section>

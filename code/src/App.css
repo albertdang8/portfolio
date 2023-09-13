@@ -10,3 +10,38 @@
 .tech__logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
+.nav__link {
+  background: 
+    linear-gradient(to right, rgba(100, 200, 200, 0), rgba(100, 200, 200, 0)),
+    linear-gradient(to right, #00DF9A, #00DF9A);
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+a {
+  background: 
+    linear-gradient(to right, #282d31, #282d31),
+    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, .2), rgba(0, 100, 200, 1));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+a:hover,
+a:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
