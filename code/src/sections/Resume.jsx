@@ -31,7 +31,7 @@ const Resume = () => {
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
               <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
-                2010-2014??
+                2010-2017
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
                 ADT-Philosophy
@@ -44,7 +44,7 @@ const Resume = () => {
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
               <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
-                2017-2021
+                2018-2021
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
                 BA-Philosophy
@@ -86,7 +86,7 @@ const Resume = () => {
             </div> */}
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
               <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
-                2010-2014??
+                2014-2020
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
                 FOH Manager
@@ -117,7 +117,7 @@ const Resume = () => {
               </h3>
               <p className="text-[#00DF9A] mb-4">Bocca Bocca Pizza</p>
               <p className="text-[#888a8c] font-semibold">
-                Cooking pizza for a pop-up while starting my coding journey by making static pages for small businesses.
+                Cooking pizza for a pop while starting my coding journey by making static pages for small businesses.
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">

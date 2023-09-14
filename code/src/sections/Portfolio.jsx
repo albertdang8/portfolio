@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 
 const Portfolio = () => {
   return (
@@ -11,12 +12,33 @@ const Portfolio = () => {
           My Work
         </h1>
       </div>
-        <div className="flex flex-col justify-center items-center text-3xl">
-            <h3 className="text-white">I peepipupu then cry T.T</h3>
+
+      <div className="flex justify-center items-center gap-8">
+
+        <div className="card bg-[url(./CineTrail_Img.png)]">
+          <div className="card__body">
+            <h2 className="card__title">CineTrail</h2>
+            <p>A psuedo IMDB-site utilizing TMDB API</p>
+          </div>
         </div>
 
-    </section>
-  )
-}
+        <div className="card bg-[url(./Bocca_Img.png)]">
+          <div className="card__body">
+            <h2 className="card__title">Bocca Bocca Pizza</h2>
+            <p>Real-life small business site</p>
+          </div>
+        </div>
 
-export default Portfolio
+        <div className="card bg-[url(./Shoe_Store.png)]">
+          <div className="card__body">
+            <h2 className="card__title">Static Shoe Store</h2>
+            <p>My first venture into TailWindCSS with some training wheels attached.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default Portfolio;
