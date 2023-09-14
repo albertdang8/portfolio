@@ -14,7 +14,7 @@ const Qualifications = () => {
         </h1>
       </div>
         <div className="flex flex-col justify-center items-center text-3xl">
-            <h3 className="text-white">I peepipupu then cry</h3>
+            <h3 className="text-white">I peepipupu then cry T.T</h3>
         </div>
 
     </section>
