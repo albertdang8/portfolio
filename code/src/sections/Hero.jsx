@@ -4,7 +4,7 @@ import { FaChevronDown } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <section className="text-white relative">
+    <section id="hero" className="text-white relative">
       <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-[#00DF9A] font-bold p-2">Hire me pretty please</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 capitalize">
