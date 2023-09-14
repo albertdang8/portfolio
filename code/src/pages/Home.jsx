@@ -1,8 +1,8 @@
 import Hero from "../sections/Hero"
+import Portfolio from "../sections/Portfolio"
 import Qualifications from "../sections/Qualifications"
 import Resume from "../sections/Resume"
 import Summary from "../sections/Summary"
-import TechStack from "../sections/TechStack"
 
 const Home = () => {
   return (
@@ -11,6 +11,7 @@ const Home = () => {
       <Summary />
       <Qualifications />
       <Resume />
+      <Portfolio />
       {/* <TechStack /> */}
     </div>
   )

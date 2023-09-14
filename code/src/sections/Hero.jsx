@@ -30,7 +30,7 @@ const Hero = () => {
           </p>
         </div>
         <p className="md:text-2xl text-xl font-bold text-gray-400">
-          Hi, I finished my bootcamp not long ago. Hire me so that I'm not a
+          Hi, I finished my bootcamp not long ago. Hire me so that {`I'm`} not a
           statistic. Be ahead of the curve.
         </p>
         <button className="border-solid border-2 border-[#00DF9A] text-[#00DF9A] hover:bg-[#00DF9A] hover:text-white transition-all ease-in duration-150 w-[200px] rounded-md my-6 mx-auto py-3 font-semibold">

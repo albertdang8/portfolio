@@ -1,4 +1,3 @@
-import React from "react";
 
 const Resume = () => {
   return (
@@ -94,7 +93,7 @@ const Resume = () => {
               </h3>
               <p className="text-[#00DF9A] mb-4">The Cellar Restaurant</p>
               <p className="text-[#888a8c] font-semibold">
-                Humble beginnings as a host. Within 6 years, promoted to event-planner, Maître d'hôtel, runner/expo, and more... Personal/professional goal to harmonize BoH and FoH relations and improve guest-relations while staying up-to-date with food/wine/cocktail trends.
+                Humble beginnings as a host. Within 6 years, promoted to event-planner, {`Maître d'hôtel`}, runner/expo, and more... Personal/professional goal to harmonize BoH and FoH relations and improve guest-relations while staying up-to-date with food/wine/cocktail trends.
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
@@ -118,7 +117,7 @@ const Resume = () => {
               </h3>
               <p className="text-[#00DF9A] mb-4">Bocca Bocca Pizza</p>
               <p className="text-[#888a8c] font-semibold">
-                Cooking pizza while starting my coding journey by making static pages for small businesses.
+                Cooking pizza for a pop-up while starting my coding journey by making static pages for small businesses.
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
@@ -128,7 +127,7 @@ const Resume = () => {
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
                 Web/Software Developer
               </h3>
-              <p className="text-[#00DF9A] mb-4">{`{YourCompany}`}</p>
+              <p className="text-[#00DF9A] mb-4">${`{YourCompany}`}</p>
               <p className="text-[#888a8c] font-semibold">
                 Invest in a growing employee with valuable growth potential in himself and your company.
               </p>
