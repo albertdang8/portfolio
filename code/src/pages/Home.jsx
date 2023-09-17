@@ -1,3 +1,4 @@
+import Contact from "../sections/Contact"
 import Hero from "../sections/Hero"
 import Portfolio from "../sections/Portfolio"
 import Qualifications from "../sections/Qualifications"
@@ -12,6 +13,7 @@ const Home = () => {
       <Qualifications />
       <Resume />
       <Portfolio />
+      <Contact />
       {/* <TechStack /> */}
     </div>
   )

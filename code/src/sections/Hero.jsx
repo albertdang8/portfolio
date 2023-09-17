@@ -37,7 +37,7 @@ const Hero = () => {
           Hire Me
         </button>
 
-        <div className="absolute bottom-[50px] left-[49.259%] transform -translate-x-1/2 cursor-pointer animate-bounce">
+        <div className=" inline-block absolute bottom-[50px] left-[49.259%] transform -translate-x-1/2 cursor-pointer animate-bounce">
           <ScrollLink to="summary" smooth={true} duration={500}>
             <FaChevronDown size={24} />
           </ScrollLink>

@@ -88,10 +88,13 @@ a:focus {
 	margin-bottom: 15px;
 }
 .card:hover::before,
-.card:hover::after {
+.card:hover::after,
+.card:focus::before,
+.card:focus::after {
 	transform: translateY(0);
 }
-.card:hover .card__body {
+.card:hover .card__body,
+.card:focus .card__body {
 	opacity: 1;
 	transition-delay: 0.75s;
 }
