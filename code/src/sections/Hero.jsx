@@ -37,11 +37,13 @@ const Hero = () => {
           Hire Me
         </button>
 
-        <div className=" inline-block absolute bottom-[50px] left-[49.259%] transform -translate-x-1/2 cursor-pointer animate-bounce">
-          <ScrollLink to="summary" smooth={true} duration={500}>
-            <FaChevronDown size={24} />
-          </ScrollLink>
-        {/* why won't this shit center? */}
+        <div className="cursor-pointer animate-bounce w-full flex justify-center items-center mt-auto pb-8">
+          <div className="">
+            <ScrollLink to="summary" smooth={true} duration={500}>
+              <FaChevronDown size={24} />
+            </ScrollLink>
+          </div>
+          {/* why won't this shit center? */}
         </div>
       </div>
     </section>
