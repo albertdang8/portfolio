@@ -1,5 +1,5 @@
-import Typed from "react-typed";
-import { Link as ScrollLink } from "react-scroll";
+// import Typed from "react-typed";
+// import { Link as ScrollLink } from "react-scroll";
 import { FaChevronDown } from "react-icons/fa6";
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="flex justify-center items-center">
           <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
             {`I'm a(n) `}
-            <Typed
+            {/* <Typed
               className="text-[#00DF9A]"
               strings={[
                 "breedable",
@@ -25,7 +25,7 @@ const Hero = () => {
               typeSpeed={100}
               backSpeed={140}
               loop
-            />
+            /> */}
             {` e-boy`}
           </p>
         </div>
@@ -39,9 +39,9 @@ const Hero = () => {
 
         <div className="cursor-pointer animate-bounce w-full flex justify-center items-center mt-auto pb-8">
           <div className="">
-            <ScrollLink to="summary" smooth={true} duration={500}>
+            {/* <ScrollLink to="summary" smooth={true} duration={500}> */}
               <FaChevronDown size={24} />
-            </ScrollLink>
+            {/* </ScrollLink> */}
           </div>
           {/* why won't this shit center? */}
         </div>
