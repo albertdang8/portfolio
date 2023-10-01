@@ -1,8 +1,27 @@
-// import Typed from "react-typed";
-// import { Link as ScrollLink } from "react-scroll";
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
 import { FaChevronDown } from "react-icons/fa6";
 
 const Hero = () => {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["breedable", "oriental", "submissive", "ching-chong", "simp"],
+      startDelay: 2000,
+      typeSpeed: 150,
+      backDelay: 1500,
+      backSpeed: 100,
+      smartBackspace: true,
+      showCursor: true,
+      loop: true,
+    });
+
+    return () => {
+      typed.destroy();
+    }
+  }, []);
+
   return (
     <section id="hero" className="text-white relative">
       <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
@@ -12,21 +31,7 @@ const Hero = () => {
         </h1>
         <div className="flex justify-center items-center">
           <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
-            {`I'm a(n) `}
-            {/* <Typed
-              className="text-[#00DF9A]"
-              strings={[
-                "breedable",
-                "oriental",
-                "submissive",
-                "ching-chong",
-                "simp",
-              ]}
-              typeSpeed={100}
-              backSpeed={140}
-              loop
-            /> */}
-            {` e-boy`}
+            I am a(n) <span ref={el} /> e-boy
           </p>
         </div>
         <p className="md:text-2xl text-xl font-bold text-gray-400">
@@ -37,15 +42,10 @@ const Hero = () => {
           Hire Me
         </button>
 
-        <div className="cursor-pointer animate-bounce w-full flex justify-center items-center mt-auto pb-8">
-          <div className="">
-            {/* <ScrollLink to="summary" smooth={true} duration={500}> */}
-              <FaChevronDown size={24} />
-            {/* </ScrollLink> */}
-          </div>
-          {/* why won't this shit center? */}
-        </div>
       </div>
+        <div className="cursor-pointer animate-bounce w-full flex justify-center items-center pb-8">
+            <FaChevronDown size={24} />
+        </div>
     </section>
   );
 };
