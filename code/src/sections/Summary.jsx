@@ -1,4 +1,3 @@
-
 const Summary = () => {
   return (
     <section
@@ -10,7 +9,9 @@ const Summary = () => {
           About Me
         </h1>
 
-          <h1 className="text-white absolute text-xl md:text-[calc(1rem+2.4vw)] font-bold">Know Me More</h1>
+        <h1 className="text-white absolute text-xl md:text-[calc(1rem+2.4vw)] font-bold">
+          Know Me More
+        </h1>
       </div>
 
       <div className="container flex flex-col items-center justify-center">
@@ -26,7 +27,7 @@ const Summary = () => {
               Thousands of clients{" "}
               <a className="under__line">
                 have procured exceptional results while working
-              </a>
+              </a>{" "}
               with our dedicated team. when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.
             </p>
@@ -42,18 +43,27 @@ const Summary = () => {
           <ul className="flex flex-col gap-4">
             <li className="border-b pb-4">
               <strong>Name:</strong>
-             {` albert dang`}
+              {` albert dang`}
             </li>
             <li className="border-b pb-4">
-              <strong>Email</strong>: <a href="mailto: albertdang8@gmail.com" className="text-[#00DF9A]">albertdang8@gmail.com</a>
+              <strong>Email</strong>:{" "}
+              <a
+                href="mailto: albertdang8@gmail.com"
+                className="text-[#00DF9A]"
+              >
+                albertdang8@gmail.com
+              </a>
             </li>
             <li className="border-b pb-4">
               <strong>Age:</strong>
-             {` 32`}
+              {` 32`}
             </li>
             <li className="flex">
               <strong>From:</strong>
-             <div className="hover:animate-bounce duration-1000 pl-2 mr-[-3px]">🍊</div>range County, California 
+              <div className="hover:animate-bounce duration-1000 pl-2 mr-[-3px]">
+                🍊
+              </div>
+              range County, California
             </li>
           </ul>
         </div>

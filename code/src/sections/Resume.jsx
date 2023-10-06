@@ -26,7 +26,7 @@ const Resume = () => {
               </h3>
               <p className="text-[#00DF9A] mb-4">Brea Olinda HS</p>
               <p className="text-[#888a8c] font-semibold">
-                Took a few AP classes and scraped by. :|
+                It is high school.
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
@@ -64,7 +64,7 @@ const Resume = () => {
               </h3>
               <p className="text-[#00DF9A] mb-4">Mimo Bootcamp</p>
               <p className="text-[#888a8c] font-semibold">
-                Focus on foundational HTML/CSS/JS/React and Firebase basics
+                Completed an intensive full stack web development program. Used Git workflow on all projects, ensuring version control and effecient team collaboration. Successfully completed curriculum coursework, which included in-depth training in React, Node, JavaScript, HTML, and CSS. 
               </p>
             </div>
           </div>

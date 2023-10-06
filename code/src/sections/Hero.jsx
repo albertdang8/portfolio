@@ -9,7 +9,7 @@ const Hero = () => {
     const typed = new Typed(el.current, {
       strings: ["breedable", "oriental", "submissive", "ching-chong", "simp"],
       startDelay: 2000,
-      typeSpeed: 150,
+      typeSpeed: 100,
       backDelay: 1500,
       backSpeed: 100,
       smartBackspace: true,
@@ -23,7 +23,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="hero" className="text-white relative">
+    <section id="hero" className="text-white">
       <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-[#00DF9A] font-bold p-2">Hire me pretty please</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 capitalize">
@@ -43,9 +43,9 @@ const Hero = () => {
         </button>
 
       </div>
-        <div className="cursor-pointer animate-bounce w-full flex justify-center items-center pb-8">
-            <FaChevronDown size={24} />
-        </div>
+        <a href="#summary" className="cursor-pointer animate-bounce w-full flex justify-center items-center pb-8">
+            <FaChevronDown size={24}/>
+        </a>
     </section>
   );
 };
