@@ -7,7 +7,7 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["breedable", "oriental", "submissive", "ching-chong", "simp"],
+      strings: ["adaptable", "dedicated", "motivated", "goal-driven", "thirsty"],
       startDelay: 2000,
       typeSpeed: 100,
       backDelay: 1500,
@@ -27,11 +27,11 @@ const Hero = () => {
       <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-[#00DF9A] font-bold p-2">Hire me pretty please</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 capitalize">
-          Develope my career
+          Develop my career
         </h1>
         <div className="flex justify-center items-center">
           <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
-            I am a(n) <span ref={el} /> e-boy
+            I am a <span ref={el} /> professional
           </p>
         </div>
         <p className="md:text-2xl text-xl font-bold text-gray-400">

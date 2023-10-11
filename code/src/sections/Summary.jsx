@@ -23,19 +23,20 @@ const Summary = () => {
           </h2>
           <div className="md:text-[calc(1rem+1vw)] text-white/50 container text-center my-8 px-6">
             <p className="mb-8">
-              I help you build brand for your business at an affordable price.
-              Thousands of clients{" "}
+              By choosing to work with me, {`you're`} not just hiring a web
+              developer; {`you're`} gaining a developer who is constantly driven
+              to <span className="underline italic">actualize potentiality</span>. I bring not only the technical
+              expertise to create functional websites, but also the ability to
+              transform ideas and visions into tangible digital realities.{" "}
               <a className="under__line">
-                have procured exceptional results while working
+                My passion for knowledge and unwavering commitment
               </a>{" "}
-              with our dedicated team. when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              to personal and professional growth ensure that {`I'm`} not merely
+              building websites; {`I'm`} actively cultivating our success
+              through and in every project. Plus {`I'm`} really funny and quirky
+              once hired. 
             </p>
-            <p>
-              {`Delivering work within time and budget which meets client's
-            requirements is our moto. Lorem Ipsum has been the industry's
-            standard dummy text ever when an unknown printer took a galley.`}
-            </p>
+            
           </div>
         </div>
 

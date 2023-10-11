@@ -1,7 +1,7 @@
 
 const Resume = () => {
   return (
-    <section className="min-h-screen bg-[#212529]">
+    <section className="min-h-screen bg-[#212529] pb-12">
       <div className="flex flex-col justify-center items-center select-none container">
         <h1 className="text-center text-[calc(1.95rem+8.4vw)] text-[#282d31] uppercase font-bold py-12 relative">
           Summary
