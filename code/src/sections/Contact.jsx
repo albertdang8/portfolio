@@ -4,8 +4,7 @@ import { BiLogoFacebook, BiLogoLinkedin } from "react-icons/bi";
 
 const Contact = () => {
   return (
-    <>
-      <section className="min-h-screen bg-[#212529]">
+      <section id="contact" className="min-h-screen bg-[#212529]">
         <div className="flex flex-col justify-center items-center select-none container">
           <h1 className="text-center text-[calc(1.95rem+8.4vw)] text-[#282d31] uppercase font-bold py-12 relative">
             Contact
@@ -15,7 +14,7 @@ const Contact = () => {
             Get in touch
           </h1>
         </div>
-        <div className="container flex gap-4 justify-evenly">
+        <div className="container flex gap-4 justify-evenly max-md:flex-col max-md:items-center">
           {/* left contact */}
           <div className="text-[#dee3e4]">
             <h5 className="mb-3 text-lg font-semibold text-white uppercase">
@@ -80,7 +79,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </>
   );
 };
 

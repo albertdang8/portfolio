@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const NavBar = () => {
 
@@ -10,18 +7,18 @@ const NavBar = () => {
         <h1 className="w-full text-md font-bold text-[#00DF9A] max-md:text-center max-md:pt-4">
           dang.albert(dev)
         </h1>
-        <ul className="flex gap-4 font-semibold">
+        <ul className="max-md:flex-wrap max-md:justify-evenly flex gap-4 font-semibold">
           <li className="p-4 nav__link">
-            <a href="#summary">About</a>
+            <a href="#services">Services</a>
           </li>
           <li className="p-4 nav__link">
-            <a href="#">Services</a>
+            <a href="#resume">Overview</a>
           </li>
           <li className="p-4 nav__link">
-            <a href="#">Overview</a>
+            <a href="#portfolio">Projects</a>
           </li>
           <li className="p-4 nav__link">
-            <a href="#">Projects</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
         
