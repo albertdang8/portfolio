@@ -26,6 +26,9 @@ const Hero = () => {
     <section id="hero" className="text-white">
       <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-[#00DF9A] font-bold p-2">Hire me pretty please</p>
+        <h1 className="md:text-xl sm:text-6xl text-xl font-bold md:py-6 capitalize text-[#dfa700]">
+          Site is currently under, over, and thru constuction. Feel free to browse.
+        </h1>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 capitalize">
           Develop my career
         </h1>
