@@ -21,7 +21,7 @@ const Contact = () => {
             Address
           </h5>
           <address className="mb-4 leading-8">
-            649 W Wilshire Ave <br />
+            West Wilshire Ave <br />
             Fullerton CA 92832
           </address>
           <p className="mb-2">
