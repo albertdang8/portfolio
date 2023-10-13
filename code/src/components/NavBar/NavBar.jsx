@@ -2,8 +2,8 @@
 const NavBar = () => {
 
   return (
-    <>
-      <nav className="flex justify-between items-center h-24 text-white max-w-[1240px] mx-auto px-4 max-md:flex-col">
+    <div className="w-full bg-[#4747475f] backdrop-blur-md fixed z-50">
+      <nav className="flex justify-between items-center h-24 text-white max-w-[1240px] mx-auto  max-md:flex-col">
         <h1 className="w-full text-md font-bold text-[#00DF9A] max-md:text-center max-md:pt-4">
           dang.albert(dev)
         </h1>
@@ -23,7 +23,7 @@ const NavBar = () => {
         </ul>
         
       </nav>
-    </>
+    </div>
   );
 };
 
