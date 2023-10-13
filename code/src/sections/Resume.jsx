@@ -1,3 +1,4 @@
+import { FaChevronDown } from "react-icons/fa6";
 
 const Resume = () => {
   return (
@@ -25,9 +26,7 @@ const Resume = () => {
                 Diploma
               </h3>
               <p className="text-[#00DF9A] mb-4">Brea Olinda HS</p>
-              <p className="text-[#888a8c] font-semibold">
-                It is high school.
-              </p>
+              <p className="text-[#888a8c] font-semibold">It is high school.</p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
               <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
@@ -64,7 +63,11 @@ const Resume = () => {
               </h3>
               <p className="text-[#00DF9A] mb-4">Mimo Bootcamp</p>
               <p className="text-[#888a8c] font-semibold">
-                Completed an intensive full stack web development program. Used Git workflow on all projects, ensuring version control and effecient team collaboration. Successfully completed curriculum coursework, which included in-depth training in React, Node, JavaScript, HTML, and CSS. 
+                Completed an intensive full stack web development program. Used
+                Git workflow on all projects, ensuring version control and
+                effecient team collaboration. Successfully completed curriculum
+                coursework, which included in-depth training in React, Node,
+                JavaScript, HTML, and CSS.
               </p>
             </div>
           </div>
@@ -93,7 +96,11 @@ const Resume = () => {
               </h3>
               <p className="text-[#00DF9A] mb-4">The Cellar Restaurant</p>
               <p className="text-[#888a8c] font-semibold">
-                Humble beginnings as a host. Within 6 years, promoted to event-planner, {`Maître d'hôtel`}, runner/expo, and more... Personal/professional goal to harmonize BoH and FoH relations and improve guest-relations while staying up-to-date with food/wine/cocktail trends.
+                Humble beginnings as a host. Within 6 years, promoted to
+                event-planner, {`Maître d'hôtel`}, runner/expo, and more...
+                Personal/professional goal to harmonize BoH and FoH relations
+                and improve guest-relations while staying up-to-date with
+                food/wine/cocktail trends.
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
@@ -105,7 +112,8 @@ const Resume = () => {
               </h3>
               <p className="text-[#00DF9A] mb-4">Chapman Crafted Brewery</p>
               <p className="text-[#888a8c] font-semibold">
-               Poured beer, managed private events, kept POS and website current while stopping frat boys with fake IDs. 
+                Poured beer, managed private events, kept POS and website
+                current while stopping frat boys with fake IDs.
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
@@ -117,7 +125,8 @@ const Resume = () => {
               </h3>
               <p className="text-[#00DF9A] mb-4">Bocca Bocca Pizza</p>
               <p className="text-[#888a8c] font-semibold">
-                Cooking pizza for a pop while starting my coding journey by making static pages for small businesses.
+                Cooking pizza for a pop while starting my coding journey by
+                making static pages for small businesses.
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
@@ -129,12 +138,19 @@ const Resume = () => {
               </h3>
               <p className="text-[#00DF9A] mb-4">${`{YourCompany}`}</p>
               <p className="text-[#888a8c] font-semibold">
-                Invest in a growing employee with valuable growth potential in himself and your company.
+                Invest in a growing employee with valuable growth potential in
+                himself and your company.
               </p>
             </div>
           </div>
         </div>
       </div>
+      <a
+        href="#portfolio"
+        className="cursor-pointer animate-bounce w-full flex justify-center items-center text-white mt-24 pb-8"
+      >
+        <FaChevronDown size={24} />
+      </a>
     </section>
   );
 };

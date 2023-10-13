@@ -1,3 +1,5 @@
+import { FaChevronDown } from "react-icons/fa6";
+
 const Summary = () => {
   return (
     <section
@@ -69,6 +71,12 @@ const Summary = () => {
           </ul>
         </div>
       </div>
+      <a
+          href="#services"
+          className="cursor-pointer animate-bounce w-full flex justify-center items-center text-white mt-24 pb-8"
+        >
+          <FaChevronDown size={24} />
+        </a>
     </section>
   );
 };

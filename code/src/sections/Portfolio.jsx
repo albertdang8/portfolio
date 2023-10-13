@@ -1,3 +1,5 @@
+import { FaChevronDown } from "react-icons/fa6";
+
 const Portfolio = () => {
   return (
     <section id="portfolio" className="min-h-screen bg-[#343a40]">
@@ -74,6 +76,12 @@ const Portfolio = () => {
           </div>
         </a>
       </div>
+      <a
+        href="#contact"
+        className="cursor-pointer animate-bounce w-full flex justify-center items-center text-white mt-24 pb-8"
+      >
+        <FaChevronDown size={24} />
+      </a>
     </section>
   );
 };

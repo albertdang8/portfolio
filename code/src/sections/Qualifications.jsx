@@ -1,6 +1,8 @@
+import { FaChevronDown } from "react-icons/fa6";
+
 const Qualifications = () => {
   return (
-    <section id="services" className="min-h-screen bg-[#343a40] pb-16">
+    <section id="services" className="min-h-screen bg-[#343a40]">
       <div className="flex flex-col justify-center items-center select-none container">
         <h1 className="text-center text-[calc(1.95rem+8.4vw)] text-[#3e444a] uppercase font-bold py-12 relative">
           Services
@@ -58,6 +60,12 @@ const Qualifications = () => {
           </ul>
         </div>
       </div>
+        <a
+          href="#resume"
+          className="cursor-pointer animate-bounce w-full flex justify-center items-center text-white mt-24 pb-8"
+        >
+          <FaChevronDown size={24} />
+        </a>
     </section>
   );
 };
