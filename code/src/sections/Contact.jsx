@@ -1,6 +1,6 @@
+import { AiFillGithub, AiFillMail } from "react-icons/ai";
+import { BiLogoLinkedin } from "react-icons/bi";
 import { FaPhone } from "react-icons/fa6";
-import { AiFillMail, AiFillInstagram, AiFillGithub } from "react-icons/ai";
-import { BiLogoFacebook, BiLogoLinkedin } from "react-icons/bi";
 
 const Contact = () => {
   return (
@@ -37,16 +37,6 @@ const Contact = () => {
               follow me
             </h5>
             <ul className="flex gap-4 text-gray-400">
-              {/* <li>
-                <a href="">
-                  <BiLogoFacebook size={20} />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <AiFillInstagram size={20} />
-                </a>
-              </li> */}
               <li>
                 <a href="https://www.linkedin.com/in/dangalbert/" target="_blank" rel="noreferrer">
                   <BiLogoLinkedin size={20} />
@@ -58,7 +48,6 @@ const Contact = () => {
                 </a>
               </li>
             </ul>
-            {/* https://www.facebook.com/albert.dang.7/ */}
           </div>
         </div>
 
