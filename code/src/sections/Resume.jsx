@@ -2,7 +2,7 @@ import { FaChevronDown } from "react-icons/fa6";
 
 const Resume = () => {
   return (
-    <section id="resume" className="min-h-screen bg-[#212529] pb-12">
+    <section id="resume" className="min-h-screen bg-[#212529] pb-12 text">
       <div className="flex flex-col justify-center items-center select-none container">
         <h1 className="text-center text-[calc(1.95rem+8.4vw)] text-[#282d31] uppercase font-bold py-12 relative">
           Summary
@@ -19,7 +19,7 @@ const Resume = () => {
               My Education
             </h4>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
-              <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
+              <p className="bg-[#00DF9A] px-[0.65em] py-[0.25em] text-lg font-semibold rounded-md inline mb-4">
                 2006-2010
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
@@ -29,7 +29,7 @@ const Resume = () => {
               <p className="text-[#888a8c] font-semibold">It is high school.</p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
-              <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
+              <p className="bg-[#00DF9A] px-[0.65em] py-[0.25em] text-lg font-semibold rounded-md inline mb-4">
                 2010-2017
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
@@ -42,7 +42,7 @@ const Resume = () => {
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
-              <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
+              <p className="bg-[#00DF9A] px-[0.65em] py-[0.25em] text-lg font-semibold rounded-md inline mb-4">
                 2018-2021
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
@@ -55,7 +55,7 @@ const Resume = () => {
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
-              <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
+              <p className="bg-[#00DF9A] px-[0.65em] py-[0.25em] text-lg font-semibold rounded-md inline mb-4">
                 2022-2023
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
@@ -76,7 +76,7 @@ const Resume = () => {
               My Experience
             </h4>
             {/* <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
-              <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
+              <p className="bg-[#00DF9A] px-[0.65em] py-[0.25em] text-lg font-semibold rounded-md inline mb-4">
                 2010-2014??
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
@@ -88,7 +88,7 @@ const Resume = () => {
               </p>
             </div> */}
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
-              <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
+              <p className="bg-[#00DF9A] px-[0.65em] py-[0.25em] text-lg font-semibold rounded-md inline mb-4">
                 2014-2020
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
@@ -104,7 +104,7 @@ const Resume = () => {
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
-              <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
+              <p className="bg-[#00DF9A] px-[0.65em] py-[0.25em] text-lg font-semibold rounded-md inline mb-4">
                 2021-2023
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
@@ -117,7 +117,7 @@ const Resume = () => {
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
-              <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
+              <p className="bg-[#00DF9A] px-[0.65em] py-[0.25em] text-lg font-semibold rounded-md inline mb-4">
                 2023
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">
@@ -130,7 +130,7 @@ const Resume = () => {
               </p>
             </div>
             <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
-              <p className="text-white bg-[#00DF9A] px-[0.65em] py-[0.25em] text-[.875rem] font-semibold rounded-md inline mb-4">
+              <p className="bg-[#00DF9A] px-[0.65em] py-[0.25em] text-lg font-semibold rounded-md inline mb-4">
                 2024++
               </p>
               <h3 className="text-white text-[1.3125rem] mt-4 font-semibold mb-2">

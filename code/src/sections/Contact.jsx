@@ -4,7 +4,7 @@ import { FaPhone } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <section id="contact" className="min-h-screen bg-[#212529]">
+    <section id="contact" className="min-h-screen bg-[#212529] text">
       <div className="flex flex-col justify-center items-center select-none container">
         <h1 className="text-center text-[calc(1.95rem+8.4vw)] text-[#282d31] uppercase font-bold py-12 relative">
           Contact

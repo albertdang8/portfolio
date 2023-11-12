@@ -4,7 +4,7 @@ const Summary = () => {
   return (
     <section
       id="summary"
-      className="flex flex-col min-h-screen bg-[#212529] text-white"
+      className="text flex flex-col min-h-screen bg-[#212529] text-white"
     >
       <div className="flex flex-col justify-center items-center select-none">
         <h1 className="text-center text-[calc(1.95rem+8.4vw)] text-[#282d31] uppercase font-bold py-12 relative">

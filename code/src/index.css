@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Rubik+Wet+Paint&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,6 +15,11 @@
 /* @media (min-width: 1280px) {} */
 
 /* @media (min-width: 1536px) {} */
+
+.text {
+  font-family: 'Cormorant Garamond', Courier, monospace;
+  font-weight: 600;
+}
 
 *,
 *::before,
