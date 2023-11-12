@@ -1,5 +1,8 @@
 import { FaChevronDown } from "react-icons/fa6";
 
+// create cards without anchors leading to the site themselves, rather display the technologies utilized
+// make project section either top banner or within the first action
+
 const Portfolio = () => {
   return (
     <section id="portfolio" className="min-h-screen bg-[#343a40]">
