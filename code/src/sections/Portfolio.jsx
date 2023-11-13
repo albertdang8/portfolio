@@ -2,6 +2,7 @@ import { FaChevronDown } from "react-icons/fa6";
 
 // create cards without anchors leading to the site themselves, rather display the technologies utilized
 // make project section either top banner or within the first action
+// refactor the arrow buttons and navbar to reflect a linear flow 
 
 const Portfolio = () => {
   return (

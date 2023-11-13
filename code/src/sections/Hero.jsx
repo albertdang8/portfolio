@@ -24,8 +24,8 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="hero" className="text-white" style={{
-      backgroundImage: `url('/me.jpg')`,
+    <section id="hero" className="text-white text" style={{
+      // backgroundImage: `url('/me2.jpg')`,
       backgroundPosition: 'left',
       backgroundSize: 'contain',
       backgroundRepeat: 'no-repeat'
