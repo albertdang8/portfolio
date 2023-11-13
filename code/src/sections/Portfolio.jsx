@@ -81,7 +81,7 @@ const Portfolio = () => {
         </a>
       </div>
       <a
-        href="#contact"
+        href="#summary"
         className="cursor-pointer animate-bounce w-full flex justify-center items-center text-white mt-24 pb-8"
       >
         <FaChevronDown size={24} />

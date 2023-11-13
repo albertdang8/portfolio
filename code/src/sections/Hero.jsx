@@ -52,7 +52,7 @@ const Hero = () => {
         </button>
 
       </div>
-        <a href="#summary" className="cursor-pointer animate-bounce w-full flex justify-center items-center pb-8">
+        <a href="#portfolio" className="cursor-pointer animate-bounce w-full flex justify-center items-center pb-8">
             <FaChevronDown size={24}/>
         </a>
     </section>

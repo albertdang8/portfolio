@@ -4,9 +4,9 @@ import { FaPhone } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <section id="contact" className="min-h-screen bg-[#212529] text">
+    <section id="contact" className="min-h-screen bg-[#343a40] text">
       <div className="flex flex-col justify-center items-center select-none container">
-        <h1 className="text-center text-[calc(1.95rem+8.4vw)] text-[#282d31] uppercase font-bold py-12 relative">
+        <h1 className="text-center text-[calc(1.95rem+8.4vw)] text-[#3e444a] uppercase font-bold py-12 relative">
           Contact
         </h1>
 
@@ -62,21 +62,21 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Name"
-                  className="w-full shadow-lg px-3 py-2 bg-[#343a40] text-white rounded-md focus:border-[#80bdff]"
+                  className="w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md focus:border-[#80bdff]"
                 />
               </div>
               <div className="w-full">
                 <input
                   type="text"
                   placeholder="Email"
-                  className="w-full shadow-lg px-3 py-2 bg-[#343a40] text-white rounded-md"
+                  className="w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md"
                 />
               </div>
 
               <div className="w-full">
                 <textarea
                   type="text"
-                  className="min-h-[60px] w-full shadow-lg px-3 py-2 bg-[#343a40] text-white rounded-md"
+                  className="min-h-[60px] w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md"
                   placeholder="Say 'hi' or leave a nice message about hiring me..."
                 />
               </div>
