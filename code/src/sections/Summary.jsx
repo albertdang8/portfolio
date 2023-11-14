@@ -1,4 +1,5 @@
 import { FaChevronDown } from "react-icons/fa6";
+import TechStack from "./TechStack";
 
 const Summary = () => {
   return (
@@ -36,11 +37,13 @@ const Summary = () => {
             {" "}
           </div>
 
+          <TechStack />
+
           <div className="md:text-[calc(1rem+1vw)] text-white/50 container text-center my-8 px-6">
             <p className="mb-8 text-center max-w-[1000px] mx-auto">
               By choosing to work with me, {`you're`} not just hiring a web
-              developer; {`you're`} gaining a developer who is constantly driven
-              to{" "}
+              developer; {`you're`} incorporating an adaptable learner who is
+              constantly driven to{" "}
               <span className="underline italic">actualize potentiality</span>.
               I bring not only the technical expertise to create functional
               websites, but also the ability to transform ideas and visions into
@@ -54,8 +57,8 @@ const Summary = () => {
               once hired.
             </p>
             <p className="max-w-[1000px]">
-              When {`I'm`} not coding, {`you'll`} often find me cycling, bowling,
-              playing chess, or building model kits.
+              When {`I'm`} not coding, {`you'll`} often find me cycling,
+              bowling, playing chess, or building model kits.
             </p>
           </div>
         </div>

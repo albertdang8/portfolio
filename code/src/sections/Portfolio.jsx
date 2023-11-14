@@ -18,9 +18,14 @@ const Portfolio = () => {
         className="flex flex-wrap justify-center items-start gap-12"
       >
         {/* card1 */}
-        <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        {/* WHITE CARD VERSION:
+         <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
           <div
-            className="relative mx-4 -mt-6 h-60 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg"
+            className="relative mx-4 -mt-6 h-60 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600"
+            style={{ */}
+        <div className="relative flex w-80 flex-col rounded-xl bg-clip-border bg-[#212529] text-white/50 shadow-md">
+          <div
+            className="relative mx-4 -mt-6 h-60 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-[#00df981e]"
             style={{
               backgroundImage: `url('/CineTrail_Img.png')`,
               backgroundPosition: "center",
@@ -34,7 +39,7 @@ const Portfolio = () => {
             </h5>
             <p className=" text text-base font-light leading-relaxed text-inherit antialiased">
               A psuedo IMDB-site utilizing TMDB API. Restful API, HTML, CSS, JS,
-              React, State Management, Mobile-responsive with dark and light mode.
+              React, State Management, Mobile-responsive with dark and light mode. Webflow and UX forward.
             </p>
           </div>
           <div className="p-6 pt-0 flex justify-evenly">
@@ -57,9 +62,9 @@ const Portfolio = () => {
           </div>
         </div>
         {/* card2 */}
-        <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <div className="relative flex w-80 flex-col rounded-xl bg-clip-border bg-[#212529] text-white/50 shadow-md">
           <div
-            className="relative mx-4 -mt-6 h-60 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600"
+            className="relative mx-4 -mt-6 h-60 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-[#00df981e]"
             style={{
               backgroundImage: `url('/Bocca_Img.png')`,
               backgroundPosition: "top",
@@ -73,7 +78,7 @@ const Portfolio = () => {
             </h5>
             <p className=" text text-base font-light leading-relaxed text-inherit antialiased">
               A live small business site. Worked and revised with client for
-              ideas and aesthetic. HTML, Tailwind, JS, React. Less is more.
+              ideas and aesthetic. HTML, Tailwind, JS, React. Practicality forward.
             </p>
           </div>
           <div className="p-6 pt-0 flex justify-evenly">
@@ -96,9 +101,9 @@ const Portfolio = () => {
           </div>
         </div>
         {/* card3 */}
-        <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <div className="relative flex w-80 flex-col rounded-xl bg-clip-border bg-[#212529] text-white/50 shadow-md">
           <div
-            className="relative mx-4 -mt-6 h-60 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600"
+            className="relative mx-4 -mt-6 h-60 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-[#00df981e]"
             style={{
               backgroundImage: `url('/notXanga.png')`,
               backgroundPosition: "center",
@@ -135,9 +140,9 @@ const Portfolio = () => {
           </div>
         </div>
         {/* card4 */}
-        <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <div className="relative flex w-80 flex-col rounded-xl bg-clip-border bg-[#212529] text-white/50 shadow-md">
           <div
-            className="relative mx-4 -mt-6 h-60 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600"
+            className="relative mx-4 -mt-6 h-60 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-[#00df981e]"
             style={{
               // backgroundImage: `url('/CineTrail_Img.png')`,
               backgroundPosition: "center",

@@ -24,7 +24,7 @@ const TechStack = () => {
           <img src={reactLogo} className="tech__logo react" alt="React logo" />
           <img src={viteLogo} className="tech__logo" alt="Vite logo" />
           <img src={firebase} className="tech__logo firebase" alt="Firebase logo" />
-          <img src={linkedIn} className="tech__logo linkedIn" alt="LinkedIn logo" />
+          {/* <img src={linkedIn} className="tech__logo linkedIn" alt="LinkedIn logo" /> */}
           <img src={ts} className="tech__logo ts" alt="TypeScript logo" />
           <img src={figma} className="tech__logo figma" alt="Figma logo" />
       </div>

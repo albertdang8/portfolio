@@ -30,7 +30,7 @@ const Hero = () => {
       backgroundSize: 'contain',
       backgroundRepeat: 'no-repeat'
     }}>
-      <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+      <div className="max-w-[800px] w-full h-screen mx-auto px-4 text-center flex flex-col justify-center">
         <p className="text-[#00DF9A] font-bold p-2">Hire me pretty please</p>
         <h1 className="md:text-xl sm:text-6xl text-xl font-bold md:py-6 capitalize text-[#dfa700]">
           Site is currently under, over, and thru construction. Feel free to browse.
