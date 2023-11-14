@@ -78,12 +78,14 @@ button {
 @media (min-width: 475px) {
   .container {
     max-width: 475px;
+    font-size: 1.125rem;
   }
 }
 
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
+    font-size: 1.125rem;
   }
 }
 

@@ -37,7 +37,7 @@ const Summary = () => {
           </div>
 
           <div className="md:text-[calc(1rem+1vw)] text-white/50 container text-center my-8 px-6">
-            <p className="mb-8">
+            <p className="mb-8 text-center max-w-[1000px] mx-auto">
               By choosing to work with me, {`you're`} not just hiring a web
               developer; {`you're`} gaining a developer who is constantly driven
               to{" "}
@@ -52,6 +52,10 @@ const Summary = () => {
               building websites; {`I'm`} actively cultivating our success
               through and in every project. Plus {`I'm`} really funny and quirky
               once hired.
+            </p>
+            <p className="max-w-[1000px]">
+              When {`I'm`} not coding, {`you'll`} often find me cycling, bowling,
+              playing chess, or building model kits.
             </p>
           </div>
         </div>

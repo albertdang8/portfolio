@@ -15,7 +15,7 @@ const Portfolio = () => {
 
       <div
         id="card-container"
-        className="flex flex-wrap justify-center items-center gap-12"
+        className="flex flex-wrap justify-center items-start gap-12"
       >
         {/* card1 */}
         <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -34,7 +34,7 @@ const Portfolio = () => {
             </h5>
             <p className=" text text-base font-light leading-relaxed text-inherit antialiased">
               A psuedo IMDB-site utilizing TMDB API. Restful API, HTML, CSS, JS,
-              React.
+              React, State Management, Mobile-responsive with dark and light mode.
             </p>
           </div>
           <div className="p-6 pt-0 flex justify-evenly">
@@ -47,7 +47,7 @@ const Portfolio = () => {
               Git Code
             </a>
             <a
-              href="#"
+              href="https://netflips.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle text text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
@@ -73,7 +73,7 @@ const Portfolio = () => {
             </h5>
             <p className=" text text-base font-light leading-relaxed text-inherit antialiased">
               A live small business site. Worked and revised with client for
-              ideas and aesthetic. HTML, Tailwind, JS, React.
+              ideas and aesthetic. HTML, Tailwind, JS, React. Less is more.
             </p>
           </div>
           <div className="p-6 pt-0 flex justify-evenly">
@@ -112,7 +112,7 @@ const Portfolio = () => {
             </h5>
             <p className=" text text-base font-light leading-relaxed text-inherit antialiased">
               Utilizing Firebase backend for storage and user log-in for article
-              creation and form submission to create a blog site.
+              creation and form submission to create a blog site. Includes log-in only privileges. Functionality forward.
             </p>
           </div>
           <div className="p-6 pt-0 flex justify-evenly">
@@ -147,11 +147,10 @@ const Portfolio = () => {
           ></div>
           <div className="p-6">
             <h5 className="mb-2  text text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-              CineTrail
+              fakeStore?
             </h5>
             <p className=" text text-base font-light leading-relaxed text-inherit antialiased">
-              Utilizing Firebase backend for storage and user log-in for article
-              creation and form submission to create a blog site.
+              Lorem Ipsum stuff.
             </p>
           </div>
           <div className="p-6 pt-0 flex justify-evenly">

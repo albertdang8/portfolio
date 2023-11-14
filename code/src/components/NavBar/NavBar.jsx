@@ -7,7 +7,7 @@ const NavBar = () => {
         <a href="#hero" className="w-full text-md font-bold text-[#00DF9A] max-md:text-center max-md:pt-4 px-4">
           dang.albert(dev)
         </a>
-        <ul className="max-md:flex-wrap max-md:justify-evenly flex gap-4 font-semibold">
+        <ul className="max-md:flex-wrap max-md:justify-evenly flex gap-4 font-semibold max-sm:gap-0 max-sm:text-sm">
           <li className="p-4 nav__link">
             <a href="#portfolio">Projects</a>
           </li>
