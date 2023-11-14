@@ -23,22 +23,36 @@ const Summary = () => {
             <span className="text-[#00DF9A] lowercase">Albert Dang</span>, a Web
             Developer
           </h2>
+
+          <div
+            className="h-64 w-64 rounded-full mx-auto mt-4 shadow-lg shadow-[#00df981e]"
+            style={{
+              backgroundImage: `url('/saintme.png')`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            {" "}
+          </div>
+
           <div className="md:text-[calc(1rem+1vw)] text-white/50 container text-center my-8 px-6">
             <p className="mb-8">
               By choosing to work with me, {`you're`} not just hiring a web
               developer; {`you're`} gaining a developer who is constantly driven
-              to <span className="underline italic">actualize potentiality</span>. I bring not only the technical
-              expertise to create functional websites, but also the ability to
-              transform ideas and visions into tangible digital realities.{" "}
+              to{" "}
+              <span className="underline italic">actualize potentiality</span>.
+              I bring not only the technical expertise to create functional
+              websites, but also the ability to transform ideas and visions into
+              tangible digital realities.{" "}
               <a className="under__line">
                 My passion for knowledge and unwavering commitment
               </a>{" "}
               to personal and professional growth ensure that {`I'm`} not merely
               building websites; {`I'm`} actively cultivating our success
               through and in every project. Plus {`I'm`} really funny and quirky
-              once hired. 
+              once hired.
             </p>
-            
           </div>
         </div>
 
@@ -72,11 +86,11 @@ const Summary = () => {
         </div>
       </div>
       <a
-          href="#services"
-          className="cursor-pointer animate-bounce w-full flex justify-center items-center text-white mt-24 pb-8"
-        >
-          <FaChevronDown size={24} />
-        </a>
+        href="#services"
+        className="cursor-pointer animate-bounce w-full flex justify-center items-center text-white mt-24 pb-8"
+      >
+        <FaChevronDown size={24} />
+      </a>
     </section>
   );
 };
