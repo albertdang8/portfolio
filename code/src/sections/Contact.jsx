@@ -71,21 +71,21 @@ const Contact = () => {
                   <input
                     type="text"
                     placeholder="Name"
-                    className="w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md focus:border-[#80bdff]"
+                    className=" w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md focus:border-[#80bdff] focus:shadow-black"
                   />
                 </div>
                 <div className="w-full">
                   <input
                     type="text"
                     placeholder="Email"
-                    className="w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md"
+                    className="w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md focus:border-[#80bdff] focus:shadow-black"
                   />
                 </div>
 
                 <div className="w-full">
                   <textarea
                     type="text"
-                    className="min-h-[60px] w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md"
+                    className="min-h-[60px] w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md focus:border-[#80bdff] focus:shadow-black"
                     placeholder="Say 'hi' or leave a nice message about hiring me..."
                   />
                 </div>
