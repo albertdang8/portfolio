@@ -34,7 +34,7 @@ const Hero = () => {
       className="text-white text"
       style={{
         backgroundImage: `url('/desktop.jpg')`,
-        backgroundPosition: "center",
+        backgroundPosition: "center top",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
@@ -43,10 +43,9 @@ const Hero = () => {
     >
       <div className="absolute inset-0 bg-black opacity-70 z-10"></div>
       <div className="max-w-[800px] w-full h-screen mx-auto px-4 text-center flex flex-col justify-center relative z-20">
-        {/* <p className="text-[#00DF9A] font-bold p-2">Hire me pretty please</p> */}
-
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 capitalize">
-          Deconstructing the <span className="text-[#00df9894] text-mono">Digital</span> Landscape
+          Deconstructing the{" "}
+          <span className="text-[#00df9894] text-mono">Digital</span> Landscape
         </h1>
         <div className="flex justify-center items-center">
           <p className="text-mono md:text-4xl sm:text-3xl text-xl font-bold py-4">
