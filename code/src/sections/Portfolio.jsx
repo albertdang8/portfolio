@@ -43,7 +43,7 @@ const Portfolio = () => {
               mode. Webflow and UX forward.
             </p>
           </div>
-          <div className="p-6 pt-0 flex justify-evenly">
+          <div className="p-6 flex pt-0 justify-evenly gap-2">
             <a
               href="https://github.com/albertdang8/cineTrail/tree/main/code"
               target="_blank"
@@ -84,7 +84,7 @@ const Portfolio = () => {
               Functionality and structure forward.
             </p>
           </div>
-          <div className="p-6 pt-0 flex justify-evenly">
+          <div className="p-6 flex pt-0 justify-evenly gap-2">
             <a
               href="https://github.com/albertdang8/fakeStore/tree/main/code"
               target="_blank"
@@ -126,7 +126,7 @@ const Portfolio = () => {
               forward.
             </p>
           </div>
-          <div className="p-6 pt-0 flex justify-evenly">
+          <div className="p-6 flex pt-0 justify-evenly gap-2">
             <a
               href="https://github.com/albertdang8/boccaFinal"
               target="_blank"
@@ -166,7 +166,7 @@ const Portfolio = () => {
               log-in only privileges. Functionality forward.
             </p>
           </div>
-          <div className="p-6 pt-0 flex justify-evenly">
+          <div className="p-6 flex pt-0 justify-evenly gap-2">
             <a
               href="https://github.com/albertdang8/blogApp/tree/main/code"
               target="_blank"

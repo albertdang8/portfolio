@@ -63,7 +63,7 @@ const Summary = () => {
           </div>
         </div>
 
-        <div className="text-xl p-12 flex-1 w-full mb-[100px]">
+        <div className="text-xl p-12 flex-1 w-full mb-[10px]">
           <ul className="flex flex-col gap-4">
             <li className="border-b pb-4">
               <strong>Name:</strong>
@@ -78,10 +78,10 @@ const Summary = () => {
                 albertdang8@gmail.com
               </a>
             </li>
-            <li className="border-b pb-4">
+            {/* <li className="border-b pb-4">
               <strong>Age:</strong>
               {` 32`}
-            </li>
+            </li> */}
             <li className="flex">
               <strong>From:</strong>
               <div className="hover:animate-bounce duration-1000 pl-2 mr-[-3px]">

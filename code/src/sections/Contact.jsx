@@ -98,20 +98,8 @@ const Contact = () => {
         </div>
       </div>
 
-      <p className="mx-auto text-center text-white container">
-        I am committed to making my websites content accessible and user
-        friendly to everyone, including those with disabilities. If you are
-        having difficulty viewing or navigating the content on this website, or
-        notice any content, feature, or functionality that you believe is not
-        fully accessible to persons with disabilities, please contact me by
-        phone at 714.423.6830 or email me with “Accessibility Inquiry” in the
-        subject line and provide a description of the specific feature you feel
-        is not fully accessible or a suggestion for improvement. I take your
-        feedback seriously and will consider it as I evaluate ways to
-        accommodate everyone and my overall accessibility policies.
-        Additionally, while I do not control such clients, I strongly encourage
-        clients of third-party digital content to provide content that is
-        accessible and user friendly.
+      <p className="mx-auto text-center text-white w-[60ch]">
+      I'm dedicated to ensuring a user-friendly experience for everyone. If you encounter any accessibility challenges or have suggestions for improvement, please reach out. Your feedback is crucial, and I'm actively working to enhance accessibility for all users. Encouraging third-party content providers to prioritize accessibility is also a top priority.
       </p>
     </section>
   );

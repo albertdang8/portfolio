@@ -42,17 +42,17 @@ const Hero = () => {
     >
       <div className="absolute inset-0 bg-black opacity-70 z-10 h-full"></div>
       <div className="max-w-[800px] w-full h-screen mx-auto px-4 text-center flex flex-col justify-center relative z-20">
-        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 capitalize">
+        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 capitalize select-none">
           Deconstructing the{" "}
           <span className="text-[#00df9894] text-mono">Digital</span> Landscape
         </h1>
         <div className="flex justify-center items-center">
-          <p className="text-mono md:text-4xl sm:text-3xl text-xl font-bold py-4">
+          <p className="text-mono md:text-4xl sm:text-3xl text-xl font-bold py-4 select-none">
             I am a<span ref={el} />
             professional
           </p>
         </div>
-        <p className="md:text-2xl text-xl font-bold text-[#dfa700]">
+        <p className="md:text-2xl text-xl font-bold text-[#dfa700] select-none">
           based in California
         </p>
         <button className="border-solid border-2 border-[#00DF9A] text-[#00DF9A] hover:bg-[#00DF9A] hover:text-white transition-all ease-in duration-150 w-[200px] rounded-md my-6 mx-auto py-3 font-semibold">

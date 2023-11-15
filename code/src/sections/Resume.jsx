@@ -67,7 +67,7 @@ const Resume = () => {
             <h4 className="text-white text-2xl font-semibold mb-6">
               My Experience
             </h4>
-            <div className="min-h-[200px] bg-[#343a40] rounded-md p-6 mb-6 shadow-lg shadow-[#00df981e]">
+            {/* <div className="min-h-[200px] bg-[#343a40] rounded-md p-6 mb-6 shadow-lg shadow-[#00df981e]">
               <p className="bg-[#00DF9A] px-[0.65em] py-[0.25em] text-xl font-semibold rounded-md inline mb-4">
                 2024++
               </p>
@@ -79,13 +79,13 @@ const Resume = () => {
                 Invest in a growing employee with valuable growth potential in
                 himself and your company.
               </p>
-            </div>
-            <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6">
+            </div> */}
+            <div className="min-h-[200px] bg-[#111418] rounded-md p-6 mb-6 shadow-lg shadow-[#00df981e]">
               <p className="bg-[#00DF9A] px-[0.65em] py-[0.25em] text-xl font-semibold rounded-md inline mb-4">
                 2023
               </p>
               <h3 className="text-white text-2xl mt-4 font-semibold mb-2">
-                Pizza Cook/Freelance Web Developer
+                Freelance Web Developer/Pizza Cook
               </h3>
               <p className="text-[#00DF9A] font-extrabold text-xl mb-4">Bocca Bocca Pizza</p>
               <p className="text-[#888a8c] text-xl font-semibold">
