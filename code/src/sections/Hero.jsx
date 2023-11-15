@@ -25,12 +25,14 @@ const Hero = () => {
 
   return (
     <section id="hero" className="text-white text" style={{
-      // backgroundImage: `url('/me2.jpg')`,
-      backgroundPosition: 'left',
-      backgroundSize: 'contain',
-      backgroundRepeat: 'no-repeat'
+      backgroundImage: `url('/desktop.jpg')`,
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      zIndex: '-1'
     }}>
-      <div className="max-w-[800px] w-full h-screen mx-auto px-4 text-center flex flex-col justify-center">
+      <div className="absolute inset-0 bg-black opacity-70 z-10"></div>
+      <div className="max-w-[800px] w-full h-screen mx-auto px-4 text-center flex flex-col justify-center relative z-20">
         <p className="text-[#00DF9A] font-bold p-2">Hire me pretty please</p>
         <h1 className="md:text-xl sm:text-6xl text-xl font-bold md:py-6 capitalize text-[#dfa700]">
           Site is currently under, over, and thru construction. Feel free to browse.
@@ -52,7 +54,7 @@ const Hero = () => {
         </button>
 
       </div>
-        <a href="#portfolio" className="cursor-pointer animate-bounce w-full flex justify-center items-center pb-8">
+      <a href="#portfolio" className="cursor-pointer animate-bounce w-full flex justify-center items-center absolute bottom-4 z-30">
             <FaChevronDown size={24}/>
         </a>
     </section>
