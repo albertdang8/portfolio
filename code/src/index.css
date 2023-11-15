@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -18,6 +19,11 @@
 
 .text {
   font-family: 'Cormorant Garamond', Courier, monospace;
+  font-weight: 600;
+}
+
+.text-mono {
+  font-family: 'Source Code Pro', monospace;
   font-weight: 600;
 }
 

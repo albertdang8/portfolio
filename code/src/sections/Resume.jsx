@@ -13,7 +13,7 @@ const Resume = () => {
         </h1>
       </div>
       <div className="container">
-        <div className="flex gap-12 max-md:flex-col">
+        <div className="flex gap-12 max-md:flex-col max-w-[1000px] mx-auto">
           <div className="flex flex-col l w-1/2 max-md:w-full">
             <h4 className="text-white text-2xl font-semibold mb-6">
               My Education
