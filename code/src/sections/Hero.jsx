@@ -37,7 +37,7 @@ const Hero = () => {
         backgroundPosition: "center top",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        zIndex: "-1",
+        zIndex: "1",
       }}
     >
       <div className="absolute inset-0 bg-black opacity-70 z-10 h-full"></div>
