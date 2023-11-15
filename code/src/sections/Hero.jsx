@@ -31,7 +31,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="text-white text bg-fixed max-md:bg-local relative"
+      className="text-white text bg-fixed relative"
       style={{
         backgroundImage: `url('/desktop.jpg')`,
         backgroundPosition: "center top",
