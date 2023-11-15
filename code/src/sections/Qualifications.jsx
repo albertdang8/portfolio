@@ -14,20 +14,20 @@ const Qualifications = () => {
       </div>
       <div className="flex flex-col gap-4 justify-center items-center text-white container md:text-[calc(1rem+.75vw)] px-12">
         <div className="max-w-6xl">
-          <h3 className="text-2xl py-4 md:text-[calc(1rem+1vw)] capitalize text-center">
+          <h3 className="text-3xl py-4 lg:text-[1.5rem] capitalize text-center">
             Continuous Learning
           </h3>
-          <p className="text-center text-lg text-[rgba(255,255,255,0.5)]">
+          <p className="text-2xl text-center text-[rgba(255,255,255,0.5)]">
             I am dedicated to staying updated with the latest front-end
             development technologies and best practices, ensuring that I can
             deliver high-quality solutions for your digital projects.
           </p>
         </div>
         <div className="max-w-6xl">
-          <h3 className="text-2xl py-4 md:text-[calc(1rem+1vw)] capitalize text-center">
+          <h3 className="text-3xl py-4 md:text-[calc(1rem+1vw)] capitalize text-center">
             Passion for Front-End Development
           </h3>
-          <p className="text-center text-lg text-[rgba(255,255,255,0.5)]">
+          <p className="text-center text-2xl text-[rgba(255,255,255,0.5)]">
             Front-end web development is not just my profession; {`it's`} my
             passion. I excel in creating user-centric web interfaces that
             captivate and engage users. {`Let's`} collaborate to bring your
@@ -36,10 +36,10 @@ const Qualifications = () => {
         </div>
 
         <div className="max-w-6xl flex flex-col justify-center items-center pl-5">
-          <h3 className="text-2xl py-4 md:text-[calc(1rem+1vw)] capitalize text-center">
+          <h3 className="text-3xl py-4 md:text-[calc(1rem+1vw)] capitalize text-center">
             Key Skills
           </h3>
-          <ul className="text-lg text-[rgba(255,255,255,0.5)] list-disc flex flex-col gap-4">
+          <ul className="text-2xl text-[rgba(255,255,255,0.5)] list-disc flex flex-col gap-4">
             <li>
               <span className="text-[#00DF9A]">
                 {`Front-End Development: `}

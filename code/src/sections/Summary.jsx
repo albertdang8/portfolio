@@ -26,7 +26,7 @@ const Summary = () => {
           </h2>
 
           <div
-            className="h-64 w-64 rounded-full mx-auto mt-4 shadow-lg shadow-[#00df981e]"
+            className="h-64 w-64 rounded-full mx-auto my-4 shadow-lg shadow-[#00df981e]"
             style={{
               backgroundImage: `url('/saintme.png')`,
               backgroundPosition: "center",
@@ -39,8 +39,8 @@ const Summary = () => {
 
           <TechStack />
 
-          <div className="md:text-[calc(1rem+1vw)] text-white/50 container text-center my-8 px-6">
-            <p className="mb-8 text-center max-w-[1000px] mx-auto">
+          <div className="text-white/50 container text-center my-8 px-6">
+            <p className="mb-8 text-center max-w-[1000px] mx-auto text-2xl lg:text-4xl">
               By choosing to work with me, {`you're`} not just hiring a web
               developer; {`you're`} incorporating an adaptable learner who is
               constantly driven to{" "}
@@ -56,7 +56,7 @@ const Summary = () => {
               through and in every project. Plus {`I'm`} really funny and quirky
               once hired.
             </p>
-            <p className="max-w-[1000px]">
+            <p className="max-w-[1000px] mx-auto text-2xl lg:text-4xl">
               When {`I'm`} not coding, {`you'll`} often find me cycling,
               bowling, playing chess, or building model kits.
             </p>
