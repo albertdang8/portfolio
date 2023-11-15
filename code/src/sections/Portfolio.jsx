@@ -78,7 +78,7 @@ const Portfolio = () => {
               fakeStore market
             </h5>
             <p className=" text text-base font-light leading-relaxed text-inherit antialiased">
-              A mock e-commerce website utilizing the fakestore API(classic).
+              A mock e-commerce website utilizing the fakestore API(classic, HA!).
               Includes product filtering, functioning cart and checkout screen.
               Context and state management. HTML CSS JS Axios and more.
               Functionality and structure forward.
@@ -86,7 +86,7 @@ const Portfolio = () => {
           </div>
           <div className="p-6 pt-0 flex justify-evenly">
             <a
-              href="#"
+              href="https://github.com/albertdang8/fakeStore/tree/main/code"
               target="_blank"
               rel="noopener noreferrer"
               className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle text text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
@@ -94,7 +94,7 @@ const Portfolio = () => {
               Git Code
             </a>
             <a
-              href="#"
+              href="https://fak3st0re.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle text text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
