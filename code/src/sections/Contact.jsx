@@ -4,6 +4,12 @@ import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { FaPhone } from "react-icons/fa6";
 
+import { toast } from "react-toastify";
+
+const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const userId = import.meta.env.VITE_EMAILJS_USER_ID;
+
 const Contact = () => {
   const [form, setForm] = useState({
     name: "",
@@ -21,41 +27,54 @@ const Contact = () => {
       ...prevForm,
       [name]: value,
     }));
-    console.log(form);
   };
-
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  
-    emailjs
-    .send(
-      'service_1rodq8c',
-      'template_go8kwyi',
-      {
-        from_name: form.name,
-        from_email: form.email,
-        message: form.message,
-      },
-      'UIgY-XqpnlgDw6ccF'
-    )
-    .then(
-      (result) => {
-        console.log('Email successfully sent!', result.text);
-      },
-      (error) => {
-        console.error('Email failed to send:', error.text);
-      }
-    );
 
-    // Clear the form after submission
+    const { name, email, message } = form;
+
+  if (!name || !email || !message) {
+    toast.error("Please fill in all fields.");
+    return;
+  }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]*$/;
+
+    if (form.email !== "" && !emailRegex.test(form.email)) {
+      toast.error("Please enter a valid email address");
+      return; 
+    }
+
+    emailjs
+      .send(
+        serviceId,
+        templateId,
+        {
+          from_name: form.name,
+          from_email: form.email,
+          message: form.message,
+        },
+        userId
+      )
+      .then(
+        (result) => {
+          toast.success("Email successfully sent!");
+          console.log("Email successfully sent!", result.text);
+        },
+        (error) => {
+          toast.error("Email failed to send");
+          console.error("Email failed to send:", error.text);
+        }
+      );
+
+    // Clear the form after successful submission
     setForm({
-      name: '',
-      email: '',
-      message: '',
+      name: "",
+      email: "",
+      message: "",
     });
   };
-  
 
   return (
     <section
