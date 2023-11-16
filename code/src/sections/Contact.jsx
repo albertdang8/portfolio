@@ -1,10 +1,67 @@
+import emailjs from "@emailjs/browser";
+import { useEffect, useState } from "react";
 import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { FaPhone } from "react-icons/fa6";
 
 const Contact = () => {
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  useEffect(() => {
+    emailjs.init(`UIgY-XqpnlgDw6ccF`);
+  }, []);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setForm((prevForm) => ({
+      ...prevForm,
+      [name]: value,
+    }));
+    console.log(form);
+  };
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  
+    emailjs
+    .send(
+      'service_1rodq8c',
+      'template_go8kwyi',
+      {
+        from_name: form.name,
+        from_email: form.email,
+        message: form.message,
+      },
+      'UIgY-XqpnlgDw6ccF'
+    )
+    .then(
+      (result) => {
+        console.log('Email successfully sent!', result.text);
+      },
+      (error) => {
+        console.error('Email failed to send:', error.text);
+      }
+    );
+
+    // Clear the form after submission
+    setForm({
+      name: '',
+      email: '',
+      message: '',
+    });
+  };
+  
+
   return (
-    <section id="contact" className="min-h-screen bg-[#343a40] text relative flex flex-col justify-between p-4">
+    <section
+      id="contact"
+      className="min-h-screen bg-[#343a40] text relative flex flex-col justify-between p-4"
+    >
       <div>
         <div className="flex flex-col justify-center items-center select-none container">
           <h1 className="text-center text-[calc(1.95rem+8.4vw)] text-[#3e444a] uppercase font-bold py-12 relative">
@@ -65,31 +122,41 @@ const Contact = () => {
             <h5 className="mb-3 text-lg font-semibold text-white uppercase">
               send me a note
             </h5>
-            <form action="" className="max-w-[60ch] mb-12">
+            <form onSubmit={handleSubmit} className="max-w-[60ch] mb-12">
               <div className="flex gap-6 flex-wrap">
                 <div className="w-full">
                   <input
                     type="text"
+                    name="name"
+                    value={form.name}
+                    onChange={handleInputChange}
                     placeholder="Name"
-                    className=" w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md focus:border-[#80bdff] focus:shadow-black"
+                    className="w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md focus:border-[#80bdff] focus:shadow-black"
                   />
                 </div>
                 <div className="w-full">
                   <input
                     type="text"
+                    name="email"
+                    value={form.email}
+                    onChange={handleInputChange}
                     placeholder="Email"
                     className="w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md focus:border-[#80bdff] focus:shadow-black"
                   />
                 </div>
-
                 <div className="w-full">
                   <textarea
-                    type="text"
-                    className="min-h-[60px] w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md focus:border-[#80bdff] focus:shadow-black"
+                    name="message"
+                    value={form.message}
+                    onChange={handleInputChange}
                     placeholder="Say 'hi' or leave a nice message about hiring me..."
+                    className="min-h-[60px] w-full shadow-lg px-3 py-2 bg-[#212529] text-white rounded-md focus:border-[#80bdff] focus:shadow-black"
                   />
                 </div>
-                <button className="bg-[#20c997] shadow-lg hover:bg-[#1baa80] transition-all duration-150 font-semibold text-white py-3 px-8 rounded-full m-auto">
+                <button
+                  type="submit"
+                  className="bg-[#20c997] shadow-lg hover:bg-[#1baa80] transition-all duration-150 font-semibold text-white py-3 px-8 rounded-full m-auto"
+                >
                   Send Message
                 </button>
               </div>
@@ -98,8 +165,13 @@ const Contact = () => {
         </div>
       </div>
 
-      <p className="mx-auto text-center text-white w-[60ch]">
-      I'm dedicated to ensuring a user-friendly experience for everyone. If you encounter any accessibility challenges or have suggestions for improvement, please reach out. Your feedback is crucial, and I'm actively working to enhance accessibility for all users. Encouraging third-party content providers to prioritize accessibility is also a top priority.
+      <p className="mx-auto text-center text-white w-[60ch] leading-tight">
+        {`I'm`} dedicated to ensuring a user-friendly experience for everyone.
+        If you encounter any accessibility challenges or have suggestions for
+        improvement, please reach out. Your feedback is crucial, and {`I'm`}
+        actively working to enhance accessibility for all users. Encouraging
+        third-party content providers to prioritize accessibility is also a top
+        priority.
       </p>
     </section>
   );
