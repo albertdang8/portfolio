@@ -10,6 +10,19 @@ const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const userId = import.meta.env.VITE_EMAILJS_USER_ID;
 
+const errorStyle = {
+  background: '#212529',
+  color: 'white',
+  fontFamily: "Source Code Pro",
+  
+}
+
+const successStyle = {
+  background: '#212529',
+  color: 'white',
+  fontFamily: "Source Code Pro",
+}
+
 const Contact = () => {
   const [form, setForm] = useState({
     name: "",
@@ -18,7 +31,7 @@ const Contact = () => {
   });
 
   useEffect(() => {
-    emailjs.init(`UIgY-XqpnlgDw6ccF`);
+    emailjs.init(userId);
   }, []);
 
   const handleInputChange = (e) => {
@@ -35,14 +48,18 @@ const Contact = () => {
     const { name, email, message } = form;
 
   if (!name || !email || !message) {
-    toast.error("Please fill in all fields.");
+    toast.error("Please fill in all fields.", {
+      style: errorStyle
+    });
     return;
   }
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]*$/;
 
     if (form.email !== "" && !emailRegex.test(form.email)) {
-      toast.error("Please enter a valid email address");
+      toast.error("Please enter a valid email address", {
+        style: errorStyle
+      });
       return; 
     }
 
@@ -59,11 +76,15 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          toast.success("Email successfully sent!");
+          toast.success("Email successfully sent!", {
+            style: successStyle
+          });
           console.log("Email successfully sent!", result.text);
         },
         (error) => {
-          toast.error("Email failed to send");
+          toast.error("Email failed to send", {
+            style: errorStyle
+          });
           console.error("Email failed to send:", error.text);
         }
       );
@@ -184,7 +205,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <p className="mx-auto text-center text-white w-[60ch] leading-tight">
+      <p className="mx-auto text-center text-white max-w-[60ch] leading-tight">
         {`I'm`} dedicated to ensuring a user-friendly experience for everyone.
         If you encounter any accessibility challenges or have suggestions for
         improvement, please reach out. Your feedback is crucial, and {`I'm`}
