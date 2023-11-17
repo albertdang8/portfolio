@@ -33,14 +33,12 @@ const Contact = () => {
   useEffect(() => {
     async function initializeEmailJS() {
       try {
-        await emailjs.init(userId);
+        emailjs.init(userId);
         console.log("EmailJS initialization successful")
       } catch (error) {
-        // Handle initialization errors here
         console.error("EmailJS initialization failed:", error);
       }
     }
-  
     initializeEmailJS();
   }, []);
 
@@ -64,14 +62,14 @@ const Contact = () => {
     return;
   }
 
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]*$/;
+    // const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]*$/;
 
-    if (form.email !== "" && !emailRegex.test(form.email)) {
-      toast.error("Please enter a valid email address", {
-        style: errorStyle
-      });
-      return; 
-    }
+    // if (form.email !== "" && !emailRegex.test(form.email)) {
+    //   toast.error("Please enter a valid email address", {
+    //     style: errorStyle
+    //   });
+    //   return; 
+    // }
 
     emailjs
       .send(
