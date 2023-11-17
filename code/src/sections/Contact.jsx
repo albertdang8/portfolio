@@ -6,9 +6,11 @@ import { FaPhone } from "react-icons/fa6";
 
 import { toast } from "react-toastify";
 
-const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-const userId = import.meta.env.VITE_EMAILJS_USER_ID;
+const serviceId = 'service_1rodq8c';
+const templateId = 'template_go8kwyi'
+const userId = 'UIgY-XqpnlgDw6ccF'
+
+console.log(userId)
 
 const errorStyle = {
   background: '#212529',
