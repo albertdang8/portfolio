@@ -62,14 +62,14 @@ const Contact = () => {
     return;
   }
 
-    // const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]*$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]*$/;
 
-    // if (form.email !== "" && !emailRegex.test(form.email)) {
-    //   toast.error("Please enter a valid email address", {
-    //     style: errorStyle
-    //   });
-    //   return; 
-    // }
+    if (form.email !== "" && !emailRegex.test(form.email)) {
+      toast.error("Please enter a valid email address", {
+        style: errorStyle
+      });
+      return; 
+    }
 
     emailjs
       .send(
