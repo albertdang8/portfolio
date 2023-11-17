@@ -31,7 +31,17 @@ const Contact = () => {
   });
 
   useEffect(() => {
-    emailjs.init(userId);
+    async function initializeEmailJS() {
+      try {
+        await emailjs.init(userId);
+        console.log("EmailJS initialization successful")
+      } catch (error) {
+        // Handle initialization errors here
+        console.error("EmailJS initialization failed:", error);
+      }
+    }
+  
+    initializeEmailJS();
   }, []);
 
   const handleInputChange = (e) => {
@@ -77,13 +87,13 @@ const Contact = () => {
       .then(
         (result) => {
           toast.success("Email successfully sent!", {
-            style: successStyle
+            style: successStyle,
           });
           console.log("Email successfully sent!", result.text);
         },
         (error) => {
           toast.error("Email failed to send", {
-            style: errorStyle
+            style: errorStyle,
           });
           console.error("Email failed to send:", error.text);
         }
