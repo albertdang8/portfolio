@@ -33,7 +33,7 @@ const Hero = () => {
       id="hero"
       className="text-white text bg-fixed relative"
       style={{
-        backgroundImage: `url('/desktop.jpg')`,
+        backgroundImage: `url('../../public/desktop.jpg')`,
         backgroundPosition: "center top",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
