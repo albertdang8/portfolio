@@ -31,7 +31,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="text-white text relative overflow-hidden h-screen max-md:h-[100dvh]"
+      className="text-white text relative overflow-hidden min-h-screen"
     >
       <div className="absolute inset-0 bg-black opacity-70 z-10 h-full"></div>
       <div className="max-w-[800px] w-full h-screen mx-auto px-4 text-center flex flex-col justify-center relative z-20">
