@@ -48,9 +48,31 @@ const Hero = () => {
         <p className="md:text-2xl text-xl font-bold text-[#dfa700] select-none">
           based in California
         </p>
-        <button className="border-solid border-2 border-[#00DF9A] text-[#00DF9A] hover:bg-[#00DF9A] hover:text-white transition-all ease-in duration-150 w-[200px] rounded-md my-6 mx-auto py-3 font-semibold">
-          Hire Me
-        </button>
+        <div className="my-6 flex gap-10 justify-center items-center max-md:flex-col max-md:gap-6">
+          <a
+            className="border-solid border-2 border-[#00df9894] text-[#00DF9A] hover:bg-[#00df9894] hover:text-white transition-all ease-in duration-150 w-[150px] rounded-md py-3 font-semibold"
+            href="https://github.com/albertdang8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          <a className="border-solid border-2 border-[#00df9894] text-[#00DF9A] hover:bg-[#00df9894] hover:text-white transition-all ease-in duration-150 w-[150px] rounded-md py-3 font-semibold"
+          href="/resume.pdf"
+          target="_blank"
+          // download="albert_dang_resume.pdf"
+          >
+            Resume
+          </a>
+          <a
+            className="border-solid border-2 border-[#00df9894] text-[#00DF9A] hover:bg-[#00df9894] hover:text-white transition-all ease-in duration-150 w-[150px] rounded-md py-3 font-semibold"
+            href="https://www.linkedin.com/in/dangalbert/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linked In
+          </a>
+        </div>
       </div>
       <a
         href="#portfolio"
