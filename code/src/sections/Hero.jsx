@@ -36,7 +36,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black opacity-70 z-10 h-full"></div>
       <div className="max-w-[800px] w-full h-screen mx-auto px-4 text-center flex flex-col justify-center relative z-20">
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 capitalize select-none">
-          Deconstructing the{" "}
+          Reconstructing the{" "}
           <span className="text-[#00df9894] text-mono">Digital</span> Landscape
         </h1>
         <div className="flex justify-center items-center">
