@@ -10,8 +10,6 @@ const serviceId = 'service_1rodq8c';
 const templateId = 'template_go8kwyi'
 const userId = 'UIgY-XqpnlgDw6ccF'
 
-console.log(userId)
-
 const errorStyle = {
   background: '#212529',
   color: 'white',
@@ -36,7 +34,7 @@ const Contact = () => {
     async function initializeEmailJS() {
       try {
         emailjs.init(userId);
-        console.log("EmailJS initialization successful")
+        // console.log("EmailJS initialization successful")
       } catch (error) {
         console.error("EmailJS initialization failed:", error);
       }

@@ -123,12 +123,18 @@ button {
   }
 }
 
-/* #2e4052
+/* because safari is rediculous and does not support backgroundAttachment:fixed */
 
-#b48d8d
-
-#9a9a65
-
-#9fc19f
-
-#7777a6 */
+#hero::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('/desktop.jpg');
+  background-position: center top;
+  background-size: cover;
+  pointer-events: none; 
+}
