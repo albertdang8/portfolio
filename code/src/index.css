@@ -123,7 +123,7 @@ button {
   }
 }
 
-/* because safari is rediculous and does not support backgroundAttachment:fixed */
+/* because safari is stupid and does not support backgroundAttachment:fixed */
 
 #hero::before {
   content: '';
