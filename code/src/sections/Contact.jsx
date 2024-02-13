@@ -132,7 +132,7 @@ const Contact = () => {
             </address>
             <p className="mb-2">
               <FaPhone className="inline text-[#00df9a] mr-4" />
-              (714) 423 6830
+              (714) 423-6830
             </p>
             <p className="mb-6">
               <AiFillMail className="inline text-[#00df9a] mr-4" />
@@ -216,7 +216,7 @@ const Contact = () => {
       <p className="mx-auto text-center text-white max-w-[60ch] leading-tight">
         {`I'm`} dedicated to ensuring a user-friendly experience for everyone.
         If you encounter any accessibility challenges or have suggestions for
-        improvement, please reach out. Your feedback is crucial, and {`I'm`}
+        improvement, please reach out. Your feedback is crucial, and {`I'm `}
         actively working to enhance accessibility for all users. Encouraging
         third-party content providers to prioritize accessibility is also a top
         priority.
